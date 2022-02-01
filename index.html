@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8">
-  <title></title>
+  <title>Metrolics | Home</title>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -21,11 +21,11 @@
 
   <meta name="theme-color" content="#fafafa">
 </head>
-<body class="page_home">
+<body class="page page--home">
 
   <header class="page_header">
-      <img class="logo__img" src="" >
-      <nav>
+    <div class="logo"> <img src="img/theme/metrolics_logo.svg" alt="Metrolics Logo"> </div>
+      <nav class="main_nav">
           <ul class= "nav-icons">
           <li class="nav-icons_element">
               <a href="" class="">Home</a>
@@ -46,34 +46,32 @@
       </nav>
   </header>
   
-  <section class="minions_background">
-      <div class="featured_arrow">features items</div>
-      <div class="slogan_box">
-        <div class="slogan_sidebox blue"></div>
-        <p class="slogan_text">Metro Style</p>
-      </div>
-      <div class="slogan_box">
-        <div class="slogan_sidebox red"></div>
-        <p class="slogan_text">Retina Ready</p>
-      </div>
-      <div class="slogan_box">
-        <div class="slogan_sidebox orange"></div>
-        <p class="slogan_text">Responsive Design</p>
-      </div>
-      <div class="featured_arrow">features items</div>
-  </section>
+    <div class="hero-area">
+        <div class="slider">
+            <ul class="slider__slides">
+                <li class="slide">
+                    <a href="#" class="slide__link">
+                        <img src="banner-img.jpg" alt="slider alt" class="slide__img">
+                        <ul class="slide__info">
+                            <li class="slide__info__item">Metro Style</li>
+                            <li class="slide__info__item">Retina Ready</li>
+                            <li class="slide__info__item">Responsive Design</li>
+                        </ul>>
+                    </a>
+                </li>
+                <!-- slide -->
+            </ul>
+            <!-- slides -->
+        </div>
+        <!-- slider -->
+    </div>
+    <!-- hero-area -->
   
   
       
   <main class="page_main">
-      <h1 class="heading_page_main">Hey guys! This is the
-          <span class="header_page_main_cyan">Metrolics</span> 
-      theme.
-      </h1>
-      <h1 class="heading_page_main">
-          It sport a responsive layout with a mobile layout.
-      </h1>
-  
+      <h1 class="heading_page_main">Hey guys! This is the Metrolics theme. It sport a responsive layout with a mobile layout.</h1>
+      
       <section class="introduction">
           <h2 class="introduction_title">Things That We Do</h2>
           <p class="introduction_subtitle">Ask us what we can do for you</p>
@@ -99,23 +97,24 @@
           </div>
       </section>
   
-      <article class="latestworkpost">
-          <h2 class="latestworkpost_title">What's Up Lately?</h2>
-          <p class="latestworkpost_subtitle">Read up on our latest works</p>
-  
-          <figure class="latestworkpost_element">
-              <img class="latestworkpost_element__img" src="img/content/placeholder.svg" alt="img description">
-              <div class="latestworkpost_element__date">
-                  <span class="latestworkpost_element_date_day">29</span>
-                  <span class="latestworkpost_element_date_month">Nov</span>
-                  <span class="latestworkpost_element_date_year">2013</span>
-              </div>
-              <div class="latestworkpost_element_description">
-                  <h3 class="latestworkpost_element_description_heading">Sample Image Post</h3>
-                  <p class="latestworkpost_element_description_type">Photography</p>
-                  <div class="latestworkpost_element_description_feature">icon</div>
-                </div>
-          </figure>
+      <section class="page__section page__section--blog">
+        <header class="section__header">
+            <h2 class="section__heading">What's Up Lately?</h2>
+            <h4 class="section__tagline">Read up on our latest work</h4>
+        </header>
+        <article class="blog__entry">
+            <span class="date">
+                <span class="date__day">29</span>
+            <span class="date__month">Nov</span>
+            <span class="date__year">2013</span>
+            </span>
+            <h3 class="blog__entry__heading">Sample Image Post</h3>
+            <img class="blog__entry__thumbnail" src="img/theme/camera-icon.png" alt="blog thumbnail" />
+            <span class="tag tag--photography">Photography</span>
+        </article>
+    </section>
+
+    <!-- page__section--blog -->
   
           <figure class="latestworkpost_element">
               <img class="latestworkpost_element__img" src="img/content/placeholder.svg" alt="img description">
@@ -147,8 +146,8 @@
       </article>
   
       <article class="latestproject">
-          <h2 class="heading_latestproject_title">Our Latest Projects</h2>
-          <p class="latestproject_subtitle">Client happy? We are happy.</p>
+          <h2 class="section__heading">Our Latest Projects</h2>
+          <p class="section__subtitle">Client happy? We are happy.</p>
           <figure class="latestproject_item">
             <img class="latestproject__item__img" src="img/content/placeholder.svg" alt="img description">
           </figure>
@@ -176,10 +175,10 @@
   
   <footer class="page_footer">
   
-      <section class="staffintro">
-          <img class="staffintro_icon" src="img/content/placeholder.svg" alt="img description">
-          <h4 class="staffintro_name">Peewee Herman</h4>
-          <p class="staffintro_introduction">Peewee has over 10 years experience in the industry. He is our Creative Director, digital designer, Web designer and front-end developer. He is also pretty good with a sketch-book. Before starting the company Peewee worked as a designer studio manager for design house who boasted a number of big name clients.</p>
+      <section class="staff_blog">
+          <img class="staff_blog_icon" src="img/content/placeholder.svg" alt="img description">
+          <h4 class="staff_blog_name">Peewee Herman</h4>
+          <p class="staff_blog_introduction">Peewee has over 10 years experience in the industry. He is our Creative Director, digital designer, Web designer and front-end developer. He is also pretty good with a sketch-book. Before starting the company Peewee worked as a designer studio manager for design house who boasted a number of big name clients.</p>
       </section>
   
       <hr class="cut-off_divider">
@@ -229,11 +228,11 @@
       </div>
       </section>
       <section class="buttonbox">
-          <div class="buttonbox_green"></div>
-          <div class="buttonbox_orange"></div>
-          <div class="buttonbox_red"></div>
-          <div class="buttonbox_lightblue"></div>
-          <div class="buttonbox_darkblue"></div>
+          <div class="buttonbox_a"></div>
+          <div class="buttonbox_b"></div>
+          <div class="buttonbox_c"></div>
+          <div class="buttonbox_d"></div>
+          <div class="buttonbox_e"></div>
       </section>
   </footer>
   </body>
