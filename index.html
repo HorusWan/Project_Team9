@@ -1,256 +1,340 @@
 <!doctype html>
-<html class="no-js" lang="">
+<html class="no-js" lang="EN">
 
 <head>
-  <meta charset="utf-8">
-  <title>Metrolics | Home</title>
-  <meta name="description" content="">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <title>Metrolics</title>
+    <meta name="description" content="Some Demo website">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <meta property="og:title" content="">
-  <meta property="og:type" content="">
-  <meta property="og:url" content="">
-  <meta property="og:image" content="">
+    <meta property="og:title" content="">
+    <meta property="og:type" content="">
+    <meta property="og:url" content="">
+    <meta property="og:image" content="">
 
-  <link rel="manifest" href="site.webmanifest">
-  <link rel="apple-touch-icon" href="icon.png">
-  <!-- Place favicon.ico in the root directory -->
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="apple-touch-icon" href="icon.png">
+    <!-- Place favicon.ico in the root directory -->
 
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/main.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
 
-  <meta name="theme-color" content="#fafafa">
+    <meta name="theme-color" content="#fafafa">
 </head>
-<body class="page page--home">
 
-  <header class="page_header">
-    <div class="logo"> <img src="img/theme/metrolics_logo.svg" alt="Metrolics Logo"> </div>
-      <nav class="main_nav">
-          <ul class= "nav-icons">
-          <li class="nav-icons_element">
-              <a href="" class="">Home</a>
-          </li>
-          <li class="nav-icons_element">
-              <a href="" class="">Page</a>
-          </li>
-          <li class="nav-icons_element">
-              <a href="" class="">Blog</a>
-          </li>
-          <li class="nav-icons_element">
-              <a href="" class="">Portfolio</a>
-          </li>
-          <li class="nav-icons_element">
-              <a href="" class="">Home2</a>
-          </li>
-          </ul>
-      </nav>
-  </header>
-  
-    <div class="hero-area">
-        <div class="slider">
-            <ul class="slider__slides">
-                <li class="slide">
-                    <a href="#" class="slide__link">
-                        <img src="banner-img.jpg" alt="slider alt" class="slide__img">
-                        <ul class="slide__info">
-                            <li class="slide__info__item">Metro Style</li>
-                            <li class="slide__info__item">Retina Ready</li>
-                            <li class="slide__info__item">Responsive Design</li>
-                        </ul>>
-                    </a>
-                </li>
-                <!-- slide -->
-            </ul>
-            <!-- slides -->
+<body class="page page-home">
+    <header class="page--header">
+        <div class="row m-1-2">
+            <nav class="mobile-nav m-hide l-hide">
+                mobile menu
+            </nav>
+            <div class="column">
+                <img class="logo" src="img/placeholder.svg" alt="slider placeholder">
+            </div>
+            <nav class="column main-nav">
+                <a href="#" class="main-nav--item active">home</a>
+                <a href="#" class="main-nav--item">pages</a>
+                <a href="#" class="main-nav--item">blog</a>
+                <a href="#" class="main-nav--item">portfolio</a>
+                <a href="#" class="main-nav--item">contact</a>
+            </nav>
         </div>
-        <!-- slider -->
+    </header>
+
+    <div class="page--slider s-hide">
+            <div class="column">
+                <img src="img/placeholder.svg" alt="slider placeholder">
+            </div>
     </div>
-    <!-- hero-area -->
-  
-  
-      
-  <main class="page_main">
-      <h1 class="heading_page_main">Hey guys! This is the Metrolics theme. It sport a responsive layout with a mobile layout.</h1>
-      
-      <section class="introduction">
-          <h2 class="introduction_title">Things That We Do</h2>
-          <p class="introduction_subtitle">Ask us what we can do for you</p>
-          <div class="introduction_element">
-              <img class="introduction_element_image" src="img/content/placeholder.svg" alt="img description">
-              <h3 class="introduction_element_title">Web Solutions></h3>
-              <p class="introduction_element_text">We are a fairly small, flexible design studio that designs for print and web. We work flexibly with clients to fulfil design needs. Whether you need to create a brand from scratch, including marketing materials.</p>
-          </div>
-          <div class="introduction_element">
-              <img class="introduction_element_image" src="img/content/placeholder.svg" alt="img description">
-              <h3 class="introduction_element_title">Photography></h3>
-              <p class="introduction_element_text">We are a fairly small, flexible design studio that designs for print and web. We work flexibly with clients to fulfil design needs. Whether you need to create a brand from scratch, including marketing materials.</p>
-          </div>
-          <div class="introduction_element">
-              <img class="introduction_element_image" src="img/content/placeholder.svg" alt="img description">
-              <h3 class="introduction_element_title">Web Development></h3>
-              <p class="introduction_element_text">We are a fairly small, flexible design studio that designs for print and web. We work flexibly with clients to fulfil design needs. Whether you need to create a brand from scratch, including marketing materials.</p>
-          </div>
-          <div class="introduction_element">
-              <img class="introduction_element_image" src="img/content/placeholder.svg" alt="img description">
-              <h3 class="introduction_element_title">Web Design></h3>
-              <p class="introduction_element_text">We are a fairly small, flexible design studio that designs for print and web. We work flexibly with clients to fulfil design needs. Whether you need to create a brand from scratch, including marketing materials.</p>
-          </div>
-      </section>
-  
-      <section class="page__section page__section--blog">
-        <header class="section__header">
-            <h2 class="section__heading">What's Up Lately?</h2>
-            <h4 class="section__tagline">Read up on our latest work</h4>
-        </header>
-        <article class="blog__entry">
-            <span class="date">
-                <span class="date__day">29</span>
-            <span class="date__month">Nov</span>
-            <span class="date__year">2013</span>
-            </span>
-            <h3 class="blog__entry__heading">Sample Image Post</h3>
-            <img class="blog__entry__thumbnail" src="img/theme/camera-icon.png" alt="blog thumbnail" />
-            <span class="tag tag--photography">Photography</span>
-        </article>
+
+    <div class="page--intro">
+        <div class="row">
+            <h1 class="heading">
+                Hey Guys! Main intro heading here!<br> It is a responsive layout with a mobile layout
+            </h1>
+        </div>
+    </div>
+
+    <section class="about">
+        <div class="row m-col-2 l-col-4">
+            <div class="column row-span">
+                <h2 class="heading">
+                    Things that we do
+                </h2>
+                <p class="tagline">
+                    This is a tagline right beneath the h2 heading.
+                </p>
+            </div>
+            <div class="column">
+                <h3 class="heading">web solutions</h3>
+                <p>
+                    We are a fairly small, flexible design studio that designs for print and web. We work flexibly with clients to fulfil their design needs.
+                </p>
+            </div>
+            <div class="column">
+                <h3 class="heading">photography</h3>
+                <p>
+                    We are a fairly small, flexible design studio that designs for print and web. We work flexibly with clients to fulfil their design needs.
+                </p>
+            </div>
+            <div class="column">
+                <h3 class="heading">web development</h3>
+                <p>
+                    We are a fairly small, flexible design studio that designs for print and web. We work flexibly with clients to fulfil their design needs.
+                </p>
+            </div>
+            <div class="column">
+                <h3 class="heading">web design</h3>
+                <p>
+                    We are a fairly small, flexible design studio that designs for print and web. We work flexibly with clients to fulfil their design needs.
+                </p>
+            </div>
+        </div>
     </section>
 
-    <!-- page__section--blog -->
-  
-          <figure class="latestworkpost_element">
-              <img class="latestworkpost_element__img" src="img/content/placeholder.svg" alt="img description">
-              <div class="latestworkpost_element__date">
-                  <span class="latestworkpost_element_date_day">29</span>
-                  <span class="latestworkpost_element_date_month">Nov</span>
-                  <span class="latestworkpost_element_date_year">2013</span>
-              </div>
-              <div class="latestworkpost_element_description">
-                  <h3 class="latestworkpost_element_description_heading">Sample Image Post</h3>
-                  <p class="latestworkpost_element_description_type">Photography</p>
-                  <div class="latestworkpost_element_description_feature">icon</div>
-                </div>
-          </figure>
-  
-          <figure class="latestworkpost_element">
-              <img class="latestworkpost_element__img" src="img/content/placeholder.svg" alt="img description">
-              <div class="latestworkpost_element__date">
-                  <span class="latestworkpost_element_date_day">29</span>
-                  <span class="latestworkpost_element_date_month">Nov</span>
-                  <span class="latestworkpost_element_date_year">2013</span>
-              </div>
-              <div class="latestworkpost_element_description">
-                  <h3 class="latestworkpost_element_description_heading">Sample Image Post</h3>
-                  <p class="latestworkpost_element_description_type">Photography</p>
-                  <div class="latestworkpost_element_description_feature">icon</div>
-                </div>
-          </figure>
-      </article>
-  
-      <article class="latestproject">
-          <h2 class="section__heading">Our Latest Projects</h2>
-          <p class="section__subtitle">Client happy? We are happy.</p>
-          <figure class="latestproject_item">
-            <img class="latestproject__item__img" src="img/content/placeholder.svg" alt="img description">
-          </figure>
-          <figure class="latestproject_item">
-            <img class="latestproject__item__img" src="img/content/placeholder.svg" alt="img description">
-          <figure class="latestproject_item">
-            <img class="latestproject__item__img" src="img/content/placeholder.svg" alt="img description">
-      </article>
-  
-      <section class="accordion_tabs">
-          <h2 class="title_accordion&tabs_title">Thingsofabove</h2>
-          <p class="accordion&tabs_subtitle">Misc stuff we could not put anyplace else</p>
-          <img class="accordion&tabs_accordion_img" src="img/content/placeholder.svg" alt="img description">
-          <img class="accordion&tabs_tabs_img" src="img/content/placeholder.svg" alt="img description">
-      
-      <section class="adslogo">
-          <img class="adslogo_img" src="img/content/placeholder.svg" alt="img description">
-          <img class="adslogo_img" src="img/content/placeholder.svg" alt="img description">
-          <img class="adslogo_img" src="img/content/placeholder.svg" alt="img description">
-          <img class="adslogo_img" src="img/content/placeholder.svg" alt="img description">
-          <img class="adslogo_img" src="img/content/placeholder.svg" alt="img description">
-      </section>
-  
-  </main>
-  
-  <footer class="page_footer">
-  
-      <section class="staff_blog">
-          <img class="staff_blog_icon" src="img/content/placeholder.svg" alt="img description">
-          <h4 class="staff_blog_name">Peewee Herman</h4>
-          <p class="staff_blog_introduction">Peewee has over 10 years experience in the industry. He is our Creative Director, digital designer, Web designer and front-end developer. He is also pretty good with a sketch-book. Before starting the company Peewee worked as a designer studio manager for design house who boasted a number of big name clients.</p>
-      </section>
-  
-      <hr class="cut-off_divider">
-  
-      <section class="footerpart_item">
-          <div class="footerpart_aboutus">
-              <h1 class="footerpart_title">About Us</h1>
-              <p class="footerpart_text">Minions lpsum potatoooo potatoooo uuuhhh. Chasy poulet tikka masala Jiji will hahahah po kass stulalllo potatoooo. Bee do bee do bee do chasy ti aamool! Po kass daa bee do bee do bee do po kass willill butt chasy. Pepete uuuhhh hahahah gelatoooo belloo! Banananaaaaa aaaaaah butt</p>
-              <a class="footerpart_aboutus_media" href="#">icon</a>
-              <a class="footerpart_aboutus_media" href="#">icon</a>
-              <a class="footerpart_aboutus_media" href="#">icon</a>
-              <a class="footerpart_aboutus_media" href="#">icon</a>
-              <a class="footerpart_aboutus_media" href="#">icon</a>
-          </div>
-  
-          <div class="footerpart_flickphotos">
-          <h3 class="flick_photos_title">Flick Photos</h3>
-              <img class="footerpart_flick_img" src="img/content/placeholder.svg" alt="img description">
-              <img class="footerpart_flick_img" src="img/content/placeholder.svg" alt="img description">
-              <img class="footerpart_flick_img" src="img/content/placeholder.svg" alt="img description">
-              <img class="footerpart_flick_img" src="img/content/placeholder.svg" alt="img description">
-              <img class="footerpart_flick_img" src="img/content/placeholder.svg" alt="img description">
-              <img class="footerpart_flick_img" src="img/content/placeholder.svg" alt="img description">
-          </div>
-  
-      <div class="footerpart_recent_tweets">
-          <h3 class="recent_tweets_title">Recent tweets</h3>
-          <div class="footerpart_tweet_user">
-              <img class="footerpart_tweet_user_icon" src="#" alt="img description">
-              <p class="footerpart_tweet_user_text"><a href="#">@Minios</a>-lpsum potatoooo potatoooo uuuhhh. Chasy poulet tikka masala jiji willll hahaha po kass.</p>
-          </div>
-      </div>
-  
-      <div class="footerpart_recent_tweets">
-          <h3 class="recent_tweets_title">Recent tweets</h3>
-          <div class="footerpart_tweet_user">
-              <img class="footerpart_tweet_user_icon" src="#" alt="img description">
-              <p class="footerpart_tweet_user_text"><a href="#">@Minios</a>-lpsum potatoooo potatoooo uuuhhh. Chasy poulet tikka masala jiji willll hahaha po kass.</p>
-          </div>
-      </div>
-  
-      <div class="footerpage_newsletter">
-          <h3 class="footerpage_newsletter_title">Newsletter</h3>
-          <p class="footerpage_newsletter_text">Minons lpsum potatoooo uuuhhh. Chasy poulet tikka masala jiji will hahha po kass tulallloo potatoooo. Bee do bee do bee do chasy ti aampo!Po kass daa b ee do bee do bee do po kass will butt chasy.Petete uuuhhh.</p>
-          <label for="email"></label>
-          <input type="email" name="email" id="footerpart_newsletter_emailinput" placeholder ="Enter your Email...">
-      </div>
-      </section>
-      <section class="buttonbox">
-          <div class="buttonbox_a"></div>
-          <div class="buttonbox_b"></div>
-          <div class="buttonbox_c"></div>
-          <div class="buttonbox_d"></div>
-          <div class="buttonbox_e"></div>
-      </section>
-  </footer>
-  </body>
-  
-<body>
+    <section class="projects--new">
+        <div class="row m-col-2 l-col-3">
+            <div class="column row-span">
+                <h2 class="heading">
+                    What’s up lately?
+                </h2>
+                <p class="tagline">
+                    This is a tagline right beneath the h2 heading.
+                </p>
+            </div>
+            <div class="column special-project l-hide">
+                <figure class="project">
+                    <img src="img/placeholder.svg" alt="placeholder">
+                    <figcaption class="project--caption">
+                        <h3 class="heading">project title</h3>
+                    </figcaption>
+                </figure>
+            </div>
+            <!-- proj col ends here -->
+            <div class="column">
+                <figure class="project">
+                    <img src="img/placeholder.svg" alt="placeholder">
+                    <figcaption class="project--caption">
+                        <h3 class="heading">project title</h3>
+                    </figcaption>
+                </figure>
+            </div>
+            <!-- proj col ends here -->
+            <div class="column">
+                <figure class="project">
+                    <img src="img/placeholder.svg" alt="placeholder">
+                    <figcaption class="project--caption">
+                        <h3 class="heading">project title</h3>
+                    </figcaption>
+                </figure>
+            </div>
+            <!-- proj col ends here -->
+            <div class="column">
+                <figure class="project">
+                    <img src="img/placeholder.svg" alt="placeholder">
+                    <figcaption class="project--caption">
+                        <h3 class="heading">project title</h3>
+                    </figcaption>
+                </figure>
+            </div>
+            <!-- proj col ends here -->
+        </div>
+    </section>
+    <!-- projects-new ends here -->
 
-  <!-- Add your site or application content here -->
-  <p>Hello world! This is HTML5 Boilerplate.</p>
-  <script src="js/vendor/modernizr-3.11.2.min.js"></script>
-  <script src="js/plugins.js"></script>
-  <script src="js/main.js"></script>
+    <section class="projects">
+        <div class="row m-col-2 l-col-3">
+            <div class="column row-span">
+                <h2 class="heading">
+                    Our latest projects
+                </h2>
+                <p class="tagline">
+                    This is a tagline right beneath the h2 heading.
+                </p>
+            </div>
+            <div class="column">
+                <figure class="project">
+                    <img src="img/placeholder.svg" alt="placeholder">
+                    <figcaption class="project--caption">
+                        <h3 class="heading">project title</h3>
+                    </figcaption>
+                </figure>
+            </div>
+            <!-- proj col ends here -->
+            <div class="column">
+                <figure class="project">
+                    <img src="img/placeholder.svg" alt="placeholder">
+                    <figcaption class="project--caption">
+                        <h3 class="heading">project title</h3>
+                    </figcaption>
+                </figure>
+            </div>
+            <!-- proj col ends here -->
+            <div class="column">
+                <figure class="project">
+                    <img src="img/placeholder.svg" alt="placeholder">
+                    <figcaption class="project--caption">
+                        <h3 class="heading">project title</h3>
+                    </figcaption>
+                </figure>
+            </div>
+            <!-- proj col ends here -->
+            <div class="column">
+                <figure class="project">
+                    <img src="img/placeholder.svg" alt="placeholder">
+                    <figcaption class="project--caption">
+                        <h3 class="heading">project title</h3>
+                    </figcaption>
+                </figure>
+            </div>
+            <!-- proj col ends here -->
+            <div class="column">
+                <figure class="project">
+                    <img src="img/placeholder.svg" alt="placeholder">
+                    <figcaption class="project--caption">
+                        <h3 class="heading">project title</h3>
+                    </figcaption>
+                </figure>
+            </div>
+            <!-- proj col ends here -->
+            <div class="column">
+                <figure class="project">
+                    <img src="img/placeholder.svg" alt="placeholder">
+                    <figcaption class="project--caption">
+                        <h3 class="heading">project title</h3>
+                    </figcaption>
+                </figure>
+            </div>
+            <!-- proj col ends here -->
+        </div>
+    </section>
+    <!-- projects-new ends here -->
 
-  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
-  <script>
-    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
-    ga('create', 'UA-XXXXX-Y', 'auto'); ga('set', 'anonymizeIp', true); ga('set', 'transport', 'beacon'); ga('send', 'pageview')
-  </script>
-  <script src="https://www.google-analytics.com/analytics.js" async></script>
+    <section class="thingsofabove">
+        <div class="row l-col-2">
+            <div class="column row-span">
+                <h2 class="heading">
+                    Thingsofabove
+                </h2>
+                <p class="tagline">
+                    This is a tagline right beneath the h2 heading.
+                </p>
+            </div>
+            <div class="column">
+                <p>GUI element here</p>
+            </div>
+            <div class="column">
+                <p>GUI element here</p>
+            </div>
+        </div>
+    </section>
+
+    <div class="sponsors">
+        <div class="row m-col-5">
+            <div class="column">
+                <img src="img/placeholder.svg" alt="placeholder">
+            </div>
+            <div class="column">
+                <img src="img/placeholder.svg" alt="placeholder">
+            </div>
+            <div class="column">
+                <img src="img/placeholder.svg" alt="placeholder">
+            </div>
+            <div class="column">
+                <img src="img/placeholder.svg" alt="placeholder">
+            </div>
+            <div class="column">
+                <img src="img/placeholder.svg" alt="placeholder">
+            </div>
+        </div>
+    </div>
+
+    <footer class="page--footer">
+        <div class="row m-col-2 l-col-4 row-no-margin">
+            <div class="page--footer__intro column row-span">
+                <h3 class="heading inverted">
+                    Pewee Herman
+                </h3>
+                <p class="inverted">
+                    Peewee has over 10 years experience in the industry. He is our Creative Director, digital designer, web designer and front-end developer. He is also pretty good with a sketchbook. Before starting the company Peewee worked as a designer and studio manager
+                    for a design house who boasted a number of big name clients.
+                </p>>
+
+            </div>
+            <div class="column about-us s-hide">
+                <h4 class="inverted">About Us</h4>
+                <p class="inverted">
+                    Minions ipsum potatoooo potatoooo uuuhhh. Chasy poulet tikka masala jiji wiiiii hahaha po kass tulaliloo potatoooo. Bee do bee do bee do chasy ti aamoo! Po kass daa bee do bee do bee do po kass wiiiii butt chasy. Pepete uuuhhh hahaha gelatooo belloo!
+                    Bananaaaa aaaaaah butt potatoooo hana dul sae butt. Hahaha wiiiii ti aamoo! Ti aamoo! Baboiii jeje. Hahaha gelatooo daa me want bananaaa! Underweaaar potatoooo tank yuuu! Aaaaaah potatoooo poopayee.
+                </p>
+            </div>
+            <div class="column flickr s-hide">
+                <h4 class="inverted">Flickr Photos</h4>
+                <div class="sub-grid m-col-3">
+                    <div class="column">
+                        <img src="img/placeholder.svg" alt="placeholder">
+                    </div>
+                    <div class="column">
+                        <img src="img/placeholder.svg" alt="placeholder">
+                    </div>
+                    <div class="column">
+                        <img src="img/placeholder.svg" alt="placeholder">
+                    </div>
+                    <div class="column">
+                        <img src="img/placeholder.svg" alt="placeholder">
+                    </div>
+                    <div class="column">
+                        <img src="img/placeholder.svg" alt="placeholder">
+                    </div>
+                    <div class="column">
+                        <img src="img/placeholder.svg" alt="placeholder">
+                    </div>
+                </div>
+            </div>
+            <div class="column soc-msgs">
+                <h4 class="inverted">Recent Tweets</h4>
+                <ul class="twts">
+                    <li class="twts__item inverted">
+                        <span class="twts__item__tag">
+                            <a href="#">#minions</a> - ipsum potatoooo potatoooo uuuhhh. Chasy poulet tikka masala jiji wiiiii hahaha po kass tulaliloo
+                        </span>
+                    </li>
+                    <li class="twts__item inverted">
+                        <span class="twts__item__tag">
+                            <a href="#">#minions</a> psum banana potatoooo uuuhhh. Chasy poulet tikka masala jiji wiiiii hahaha  tulaliloo potatoooo. 
+                        </span>
+                    </li>
+                </ul>
+            </div>
+            <div class="column newsletter s-hide">
+                <h4 class="inverted">Newsletter</h4>
+                <p class="inverted">
+                    Minions ipsum potatoooo potatoooo uuuhhh. Chasy poulet tikka masala jiji wiiiii hahaha po kass tulaliloo potatoooo. Bee do bee do bee do chasy ti aamoo! Po kass daa bee do bee do bee do po kass wiiiii butt chasy. Pepete uuuhhh hahaha gelatooo belloo!
+                    Bananaaaa aaaaaah butt potatoooo hana dul sae butt.
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="js/vendor/modernizr-3.11.2.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+
+    <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+    <!-- <script>
+        window.ga = function() {
+            ga.q.push(arguments)
+        };
+        ga.q = [];
+        ga.l = +new Date;
+        ga('create', 'UA-XXXXX-Y', 'auto');
+        ga('set', 'anonymizeIp', true);
+        ga('set', 'transport', 'beacon');
+        ga('send', 'pageview')
+    </script>
+    <script src="https://www.google-analytics.com/analytics.js" async></script> -->
 </body>
 
 </html>
